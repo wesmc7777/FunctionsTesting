@@ -1,0 +1,23 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueueItem",
+      "queueName": "requestqueue",
+      "connection": "wesmcstoragetest_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

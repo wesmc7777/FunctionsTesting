@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "requestqueue",
+      "connection": "wesmcstoragetest_STORAGE"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueueItem",
+      "queueName": "processingqueue",
+      "connection": "wesmcstoragetest_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": true
+}
