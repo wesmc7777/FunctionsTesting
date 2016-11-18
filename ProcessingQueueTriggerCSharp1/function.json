@@ -8,5 +8,5 @@
       "connection": "wesmcstoragetest_STORAGE"
     }
   ],
-  "disabled": true
+  "disabled": false
 }
